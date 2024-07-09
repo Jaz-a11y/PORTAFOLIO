@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #d9534f; 
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #d9534f !important; 
+}
+
+.nav-link:hover {
+    color: #c9302c !important; 
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #5d5d5d; 
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #d9534f; 
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    color: #5d5d5d; 
+}
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 3em;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/* Estilos para computadoras */
+.imagen-yo img {
+    display: block; /* Mostrar la imagen como bloque */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    max-width: 100%; /* Asegurar que la imagen no exceda su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 468px) {
+    .imagen-yo {
+        display: none; /* Ocultar el contenedor en dispositivos móviles */
+    }
+}
